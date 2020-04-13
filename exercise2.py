@@ -1,4 +1,4 @@
-#!env/bin/python3
+#!../env/bin/python3
 
 import requests
 import datetime
@@ -142,8 +142,8 @@ if __name__ == "__main__":
     Calls get_bankholiday_temperatures function and returns a dict with temperature details
 
     """
-    arg_parser = argparse.ArgumentParser(prog='exercise2',
-                                         usage='usage: \n%(prog)s location "holiday"',
+    arg_parser = argparse.ArgumentParser(prog='exercise2.py',
+                                         usage='\n%(prog)s location "holiday"',
                                          description='Retrieve the highest recorded temperature for a specific holiday',
                                          add_help=True
                                          )
