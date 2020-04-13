@@ -12,6 +12,8 @@ To install and use virtualenv:
 
 `$ cd exercises`
 
+`$ python3 -m virtualenv env`
+
 `$ source env/bin/activate`
 
 `$ git clone https://github.com/williamhargrove/assessment.git`
@@ -66,3 +68,4 @@ Glasgow is in Scotland and parse this json section.
 Improvements
 1. Add logging to the script with `logging` module.
 2. Separate out URLs into a properties file parsed with `configparser` module.
+3. Add some tests.
