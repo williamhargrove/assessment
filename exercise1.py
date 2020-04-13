@@ -1,3 +1,5 @@
+#!env/bin/python3
+
 import requests
 import datetime
 import argparse
