@@ -55,7 +55,7 @@ returns
 
 `2020 recorded the highest temperature for Good Friday in Liverpool`
 
-Improvements and known issues
+######Improvements and known issues
 
 Known issues
 1. When looking up the date of a bank holiday, the first date match is taken from the list of regions returned from the gov.uk portal,
